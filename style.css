@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: arial;
+}
+header{
+    background-color: gray;
+    width: 100%;
+    height: 22vh;
+    color: white;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: 7vh;
+}
+ul li{
+    display: inline;
+    margin-left: 30px;
+}
+.enlace{
+    margin-top: 11vh;
+    position: relative;
+    font-weight: bold;
+}
+a:link{
+    color: white;
+    text-decoration:none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: olive;
+}
+.iconito{
+    padding-left: 10px;
+}
+.imgheader{
+    background-image: url(img/header.jpg);
+    background-position: center;
+	background-size: cover;
+    height: 120vh;
+}
+.subtitleheader{
+    position: relative;
+    top: 80vh;
+    margin-left: 20vh;
+    line-height: 10vh;
+}
+.subtitle{
+    margin-top: 10vh;
+    text-align: center;
+}
+.ordensectionindex{
+    padding-top: 95vh;
+}
+.contenedor2{
+    display: inline-block;
+    text-align: center;
+    margin: 9vh 5vh;
+}
+.contenedor2 h2{
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+.contenedor3 {
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    display: flex;
+    justify-content: center;
+}
+.contenedor4{
+    margin-left: 8px;
+    border: gray 1px solid;   
+    background-color: #e4d8c9;
+}
+.anuncio{
+    width: 278px;
+    height: 200px;
+}
+.precio{
+    color: #75b14b;
+    font-weight: bold;
+    margin: 2vh 0;
+}
+.txtanuncio{
+    margin: 3vh;
+    line-height: 4vh;
+}
+.contenedor3 span{
+    font-size: 1.7vh;
+}
+.iconos{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonanuncio{
+    margin: 2vh;
+    background-color: #d48725;
+    width: 250px;
+    height: 40px;
+    border: 1px;
+    color: white;
+}
+.buttontodas{
+    background-color: #75b14b;
+    height: 40px;
+    width: 150px;
+    border: 1px;
+    color: white;
+    margin-left: 960px;
+}
+.contenedor5{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url(img/encuentra.jpg);
+    background-position: center;
+	background-size: cover;
+    height: 80vh; 
+}
+.txtencuentra{
+    color: white;
+    padding: 100px;
+    line-height: 100px;
+}
+.buttoncontacto{
+    background-color: #d48725;
+    height: 40px;
+    width: 150px;
+    border: 1px;
+    color: white;
+}
+.contenedor6{
+    display: inline-flex;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.blog{
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+.global{
+    height: 550px;
+}
+.contenedor6 img{
+    width: 250px;
+    height: 200px;
+}
+.txtblog{
+    margin-left: 20px;
+    line-height: 25px;
+}
+.blogcolor{
+    color: #d48725;
+}
+hr{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #75b14b;
+    height: 5px;
+    width: 100px;
+}
+.contenedor7 h3{
+    margin-left: 100px;
+}
+.contenedor7{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 800px;
+    bottom: 515px;
+}
+.greenbox{
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+    background-color:#75b14b;
+    border-radius: 20px;
+    padding: 20px;
+    line-height: 40px;
+    flex-wrap: nowrap;
+    color: white;
+}
+.contenedor7 h4{
+    text-align: right;
+}
+footer{
+    background-color: gray;
+    width: 100%;
+    height: 15vh;
+    color: white;
+    padding-top: 40px;
+}
+.masnosotros{
+    display: inline-flex;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 900px;
+}
+.masnosotros img{
+    width: 400px;
+    height: 400px;
+}
+.txtnosotros{
+    margin-left: 20px;
+    line-height: 30px;
+}
+.masnosotros h3{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.masnosotros p{
+    font-size: 13px;
+    padding-right: 15px;
+    margin-top: 18px;
+}
+.imgcontact{
+    margin-top: 20px;
+    width: 100%;
+    height: 80vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+fieldset{
+    width: 600px;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+legend{
+    margin-bottom: 10px;
+    margin: 10px 10px;
+    font-weight: bold;
+}
+.radiob{
+    margin-top: 10px;
+    height: 15px;
+    width: 25px;
+}
+label{
+    margin-left: 10px;
+    font-weight: bold;
+}
+input{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 580px;
+    height: 30px;
+    background-color: #dfd8d2;
+    border: 1px;
+}
+textarea{
+    margin-left: 10px;
+    width: 580px;
+    height: 60px;
+    margin-bottom: 15px;
+    background-color: #dfd8d2;
+    border: 1px;
+}
+select{
+    margin: 0 10px 10px;
+    width: 580px;
+    height: 30px;
+    background-color: #dfd8d2;
+    border: 1px;
+}
+.buttoncontact{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #75b14b;
+    height: 40px;
+    width: 150px;
+    border: 1px;
+    color: white;
+}

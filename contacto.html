@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../font awesome/css/font-awesome.min.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <a href="index.html"><img class="logo" src="img/logo.svg" alt="logo"></a>
+            <nav class="enlace">
+                <ul>
+                    <li><a href="nosotros.html">Nosotros<i class="fa fa-users iconito" aria-hidden="true"></i></a></li>
+                    <li><a href="anuncio.html">Anuncios<i class="fa fa-bullhorn iconito" aria-hidden="true"></i></a></li>
+                    <li><a href="blog.html">Blog<i class="fa fa-rss-square iconito" aria-hidden="true"></i></a></li>
+                    <li><a href="contacto.html">Contacto<i class="fa fa-envelope-o iconito" aria-hidden="true"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <h1 class="subtitle">Contacto</h1>
+        <img class="imgcontact" src="img/destacada3.jpg" alt="contacto">
+        <h3 class="subtitle">Llene el Formulario de Contacto</h3>
+        <form>
+            <fieldset>
+                <legend>Información Personal</legend>
+                <label for="">Nombre:</label> <p></p>
+                <input type="text" placeholder="Tu nombre"><p></p>
+                <label for="">E-mail:</label><p></p>
+                <input type="text" placeholder="Tu email"><p></p>
+                <label for="">Teléfono</label><p></p>
+                <input type="text" placeholder="Tu telefono"><p></p>
+                <label for="">Mensaje:</label><p></p>
+                <textarea></textarea><p></p>
+            </fieldset>
+            <fieldset>
+                <legend>Información sobre Propiedad</legend>
+                <label for="">Vende o compra:</label><p></p>
+                <select>
+                    <option selected disabled>-- Seleccione: --</option>
+                    <option>Compra</option>
+                    <option>Vende</option>
+                </select><p></p>
+                <label for="">Presupuesto:</label><p></p>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Contacto</legend>
+                <label>Como desea ser contactado:</label><p></p>
+                <input class="radiob" type="radio" name="contacto">Teléfono<p></p>
+                <input class="radiob" type="radio" name="contacto">Correo<p></p>
+                <p>&nbsp;</p>
+                <label>Si Eligió Teléfono, Elija Fecha y Hora</label><p></p>
+                <p>&nbsp;</p>
+                <label>Fecha</label><p></p>
+                <input type="date"><p></p>
+                <label>Hora</label><p></p>
+                <input type="time">
+                <input class="buttoncontact" type="submit" value="ENVIAR">
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <!-- Inicio de footer-->
+        <div class="orden">
+            <div class="contenedor">
+                <nav>
+                    <ul>
+                        <li><a href="nosotros.html">Nosotros<i class="fa fa-users iconito" aria-hidden="true"></i></a></li>
+                        <li><a href="anuncio.html">Anuncios<i class="fa fa-bullhorn iconito" aria-hidden="true"></i></a></li>
+                        <li><a href="blog.html">Blog<i class="fa fa-rss-square iconito" aria-hidden="true"></i></a></li>
+                        <li><a href="contacto.html">Contacto<i class="fa fa-envelope-o iconito" aria-hidden="true"></i></a></li>
+                    </ul>
+                </nav>
+                <span>Todos los derechos reservados  <i class="fa fa-copyright" aria-hidden="true"></i></span>
+            </div>
+        </div>
+    </footer>
+    <!--Fin footer-->
+</body>
+
+</html>
